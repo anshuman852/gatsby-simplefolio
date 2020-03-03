@@ -18,10 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Will Surely',
+  paragraphTwo: 'Write Something',
+  paragraphThree: 'Very Cool',
+  resume: 'https://drive.google.com/file/d/17WzGf13ocGpNA9Fhzu-JZ03zgceefeBO/view', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,29 +29,20 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Timetable App',
+    info: 'Timetable and Attendancer Checker App for GIFT CSE and AG students',
+    info2: 'Written in Java, uses firebase to store the timetable information',
+    url: 'https://bit.ly/GIFTAPP',
+    repo: 'https://github.com/anshuman852/GIFT-CSE-APP', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'REST API for timetable app',
+    info: 'Rest api written in Nodejs to scrape data from our CMS(cms.gift.edu.in)',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'github.com/anshuman852',
+    repo: 'github.com/anshuman852', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +50,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'anshuman852@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,7 +59,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/anshuman852',
     },
     {
       id: uuidv1(),
