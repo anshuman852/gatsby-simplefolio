@@ -41,8 +41,8 @@ export const projectsData = [
     title: 'REST API for timetable app',
     info: 'Rest api written in Nodejs to scrape data from our CMS(cms.gift.edu.in)',
     info2: '',
-    url: 'github.com/anshuman852',
-    repo: 'github.com/anshuman852', // if no repo, the button will not show up
+    url: 'https://github.com/anshuman852',
+    repo: 'https://github.com/anshuman852', // if no repo, the button will not show up
   },
 ];
 
